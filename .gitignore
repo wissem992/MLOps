@@ -1,0 +1,36 @@
+# Environnements virtuels Python (Dossiers .venv, Lib, Scripts, etc.)
+.venv/
+.zen/
+venv/
+env/
+ENV/
+Lib/
+Scripts/
+Include/
+share/
+etc/
+pyvenv.cfg
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers et journaux ZenML / MLflow / Modèles (Lourds & spécifiques à votre machine)
+.zen/
+mlruns/
+saved_model/
+*.db
+
+# Données volumineuses (Data)
+data/
+*.csv
+*.zip
+
+# Checkpoints Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Fichiers système et IDE
+.vscode/
+.idea/
+.DS_Store
